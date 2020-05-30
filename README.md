@@ -1,4 +1,4 @@
-#High Five Team  !!
+# High Five Team  !!
 
 # Project Title
 
@@ -31,9 +31,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 Information required to run the application
 ```
-* Node.js
-* Localhost environment to run your application
-* A basic knowledge to run a Node.js application.
+ Node.js
+ Localhost environment to run your application
+ A basic knowledge to run a Node.js application.
 ```
 
 ## Where users can get help with your project
@@ -45,12 +45,12 @@ Information required to run the application
 ## Technologies 
 Project is created with the following:
 ```
-* Visual Studio Code
-* Node.js
-* HTML
-* CSS
-* IBM Cloud Services
-* Web Api based on JavaScript
+ Visual Studio Code
+ Node.js
+ HTML
+ CSS
+ IBM Cloud Services
+ Web Api based on JavaScript
 
 ```
 ## How user can get started with the project
