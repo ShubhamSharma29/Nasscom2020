@@ -1,0 +1,134 @@
+<?php Header("Cache-Control: max-age=3000, must-revalidate"); ?>
+ <html>
+<head>
+
+  <title>High Five - Free Online Education</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+	
+	<link rel="stylesheet" href="/static/bm.css"/>
+	<link rel="stylesheet" href="/static/style1.css"/>
+
+</head>
+
+<body >
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<header class="header-section3">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3">
+					<div class="site-logo">
+						<a href="/"><img src="/static/logo2.png" width=80% height=180% alt="image not found"/></a>
+					</div>
+					<div class="nav-switch">
+						<i class="fa fa-bars"></i>
+					</div>
+				</div>
+				<div class="col-lg-9 col-md-9">
+					<a href="/appid/logout" class="site-btn header-btn">Logout</a>
+					<nav class="main-menu">
+						<ul>
+							<li><a href="/static/about.html">About us</a></li>
+							<li><a href="/">Courses</a></li>
+							<li><a href="#notes">My Notes</a></li>
+							<li><a href="/static/contact.html">Contact</a></li>
+							<li><a href="/static/feedback.html">Feedback</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section></br></br></br></section>
+	<section class="single-course spad pb-0">
+		<div class="container">
+	      <img src="/static/notes2.jpg" alt="" class="course-preview">
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1 course-list">
+					<div class="cl-item" id="notes">
+                        <h4>Manage your notes!!</h4>
+                        <p>We have a platform for you where you can make your notes through voice, you just need to speak 
+                            through your microphone and that will get converted to text and you can download the file then.
+                            Also we have another feature which can help you improve 
+                            your listening skills and also help you when you have to huge articles to go through. 
+                            You can just copy the text in the text area given and then play, the text will be converted to audio that you can listen. Next we have one more feature that would help you translate your text into other languages.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+    <section>
+        <div style="background-image: url(/static/counter_background.jpg);align-items: center;">
+        <h3 style="color: aqua; text-align: center;">Speech to text conversion</h3>
+        <div class="mywebapp" text-align="center"> 
+            <div class="input" style="padding-left: 31%;">
+                <textarea  id="textbox" cols="70" rows="15"></textarea>  
+                <br><br>
+            <button style="background-color:aquamarine;" id="start-btn" title="Start">Start</button>
+            <p id="instructions">Press the Start button to start recording</p>
+            <button style="background-color:aquamarine;" id="save" onclick="saveTextAsFile()">Download Text File</button>
+            <br><br>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/static/app.js"></script>
+    <script src="/static/download.js"></script>
+    </section>
+    <section>
+        <div style="background-color: beige;">
+            
+        <h4 style="text-align: center; color: brown;">Improve your listening skills with <strong>text to speech conversion.</strong><br> Just put your text in the given text area below and click on speak button.</h4>
+       <br>
+     </div>
+     <div style="background-image: url(/static/counter_background.jpg);align-items: center;">
+        <div>
+            <label for="rate" style="color: cyan;">Rate:</label> 
+<input name="rate" type="range" min="0" max="3" vaeue="1" step="0.1"> <br>
+     <label style="color: cyan;">   Select a language: </label>
+     <select name="voice" id="voices">
+
+
+     </div>
+<label>Text Area: </label>
+<textarea name="text" placeholder="Enter your text here" cols="50" rows="15">
+</textarea>
+<button id="stop" style="background-color: crimson; color: chartreuse;">Stop!</button> 
+<button id="speak" style="background-color: green;color: whitesmoke;">Speak</button> 
+<br><br>
+</div>
+<script src="/static/tts.js"></script>
+</section>
+ <div style="background-color: beige;">
+<h4 style="text-align: center; color: brown;">Translagte your text in different languages, maybe it can help you learn foreign languages.<br> Just click the link of your choice from the links given below, you will be redirected to the translation page.</h4>
+<br><div style="background-image: url(/static/counter_background.jpg);align-items: center;">
+    <a href="https://node-red-lcnjg.eu-gb.mybluemix.net/ui/" ><h5 style="color: aqua; padding-left: 37%;">English to Hindi Translation</h6></a>
+    <a href="https://node-red-sqvho.eu-gb.mybluemix.net/ui/" ><h5 style="color: aqua; padding-left: 37%;">English to Spanish Translation</h6></a>
+    <a href="https://node-red-vkkmr.eu-gb.mybluemix.net/ui/" ><h5 style="color: aqua; padding-left: 37%;">English to German Translation</h6></a>
+    <h6 style="color: orange; padding-left: 20%;"><strong>Note:<strong> Please refresh the page on this link few times. Sorry for the inconvenience. We are working on it.</h6>
+    <br>
+    </div>
+</div>
+<section>
+  
+</section>
+    <script src="/static/jquery321.min.js"></script>
+	<script src="/static/bootstrap.m.js"></script>
+	<script src="/static/mixit.min.js"></script>
+	<script src="/static/cp.min.js"></script>
+	<script src="/static/owl.min.js"></script>
+	<script src="/static/main1.js"></script>
+
+    </body>
+    </html>
